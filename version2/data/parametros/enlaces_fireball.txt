@@ -1,0 +1,6 @@
+blanco|http://www.channelfireball.com/articles/shadows-over-innistrad-limited-set-review-white/
+azul|http://www.channelfireball.com/articles/shadows-over-innistrad-limited-set-review-blue-cards/
+negro|http://www.channelfireball.com/articles/shadows-over-innistrad-limited-set-review-black-cards/
+rojo|http://www.channelfireball.com/articles/shadows-over-innistrad-limited-set-review-red/
+verde|http://www.channelfireball.com/articles/shadows-over-innistrad-limited-set-review-green/
+multicolor|http://www.channelfireball.com/articles/shadows-over-innistrad-limited-set-review-colorless-lands-and-gold/

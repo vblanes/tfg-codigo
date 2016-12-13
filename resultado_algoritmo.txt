@@ -1,0 +1,90 @@
+################
+POOL
+################
+Sanitarium Skeleton -> B
+Sanitarium Skeleton -> B
+Alms of the Vein -> 2B
+Confront the Unknown -> G
+Traverse the Ulvenwald -> G
+Aim High -> 1G
+Aim High -> 1G
+Clip Wings -> 1G
+Fork in the Road -> 1G
+Hinterland Logger -> 1G
+Quilled Wolf -> 1G
+Byway Courier -> 2G
+Root Out -> 2G
+Silverfur Partisan -> 2G
+Stoic Builder -> 2G
+Ulvenwald Mysteries -> 2G
+Weirding Wood -> 2G
+Briarbridge Patrol -> 3G
+Briarbridge Patrol -> 3G
+Equestrian Skill -> 3G
+Might Beyond Reason -> 3G
+Explosive Apparatus -> 1
+Explosive Apparatus -> 1
+True-Faith Censer -> 2
+Magnifying Glass -> 3
+Prized Amalgam -> 1UB
+Falkenrath Gorger -> R
+Falkenrath Gorger -> R
+Rush of Adrenaline -> R
+Ravenous Bloodseeker -> 1R
+Tormenting Voice -> 1R
+Vessel of Volatility -> 1R
+Vessel of Volatility -> 1R
+Vessel of Volatility -> 1R
+Bloodmad Vampire -> 2R
+Bloodmad Vampire -> 2R
+Bloodmad Vampire -> 2R
+Dance with Devils -> 3R
+Inner Struggle -> 3R
+Malevolent Whispers -> 3R
+Pyre Hound -> 3R
+Structural Distortion -> 3R
+Dissension in the Ranks -> 3RR
+Reduce to Ashes -> 4R
+Furtive Homunculus -> 1U
+Jace's Scrutiny -> 1U
+Jace's Scrutiny -> 1U
+Jace's Scrutiny -> 1U
+Vessel of Paramnesia -> 1U
+Vessel of Paramnesia -> 1U
+Catalog -> 2U
+Pieces of the Puzzle -> 2U
+Drownyard Explorers -> 3U
+Engulf the Shore -> 3U
+Stitchwing Skaab -> 3U
+Stormrider Spirit -> 4U
+Topplegeist -> W
+Devilthorn Fox -> 1W
+Devilthorn Fox -> 1W
+Vessel of Ephemera -> 1W
+Ethereal Guidance -> 2W
+################
+ELECCION
+################
+Sinister Concoction -> B
+Rancid Rats -> 1B
+Rancid Rats -> 1B
+Farbog Revenant -> 2B
+Merciless Resolve -> 2B
+Vampire Noble -> 2B
+Vampire Noble -> 2B
+Rottenheart Ghoul -> 3B
+Throttle -> 4B
+Throttle -> 4B
+Thraben Gargoyle -> 1
+Wild-Field Scarecrow -> 3
+Epitaph Golem -> 5
+Thraben Inspector -> W
+Thraben Inspector -> W
+Unruly Mob -> 1W
+Unruly Mob -> 1W
+Unruly Mob -> 1W
+Bound by Moonsilver -> 2W
+Dauntless Cathar -> 2W
+Dauntless Cathar -> 2W
+Hope Against Hope -> 2W
+Apothecary Geist -> 3W

@@ -1,0 +1,17 @@
+1) SCRAPEAR LAS PÁGINAS, UTILIZAR ESTAS DOS LLAMADAS
+
+python3 scrapper.py recopilar "http://magic.tcgplayer.com/db/search_result.asp?Set_Name=Shadows%20Over%20Innistrad" "http://magiccards.info/query?q=e%3Asoi%2Fen&s=cname&v=card&p=" 16 
+
+python3 scrapper.py calcular
+
+Nota: Crea un fichero con las cartas que no han podido ser insertadas, porque son la parte de atrás de alguna carta o cualquier otro motivo
+
+2) INSERTAR EN LA BD LAS CARTAS Y LAS ARISTAS
+
+python3 initdb.py 
+
+3) CREAR EL DECK
+
+python3 constructor <numpool>
+
+Nota: Si queremos usar un pool de los predefinidos en data/pools ponemos su numero, si queremos crear uno nuevo el argumento será -1
