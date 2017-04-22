@@ -13,8 +13,8 @@ peso_sinergia : 0.3
 ###########################
 #AJUSTE DE LA CURVA DE MANA
 ##########################
-media_mana : 3
-factor_mana : 100
+media_mana : 2.8
+factor_mana : 0.5
 
 #######################
 #RESTRICCIONES BLANDAS

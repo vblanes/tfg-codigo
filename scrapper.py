@@ -264,11 +264,7 @@ def recopilar_info():
     parametro "recopilar"
     '''
     # crea los diccionarios que van a recibir la información
-    dictfireball = {}
-    dicttcgplayer = {}
-    dictmagicinfo = {}
-    # llama a los metodos concretos de cada pagina para rellenar los diccionarios
-    tcg_player_scrap(diccionario=dicttcgplayer, url=sys.argv[2])
+    dictfireball = {}nombresycorreos])
 
     # ahora la informacion de fireball
     enl_fireball = enlaces_fireball()

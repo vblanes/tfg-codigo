@@ -2,89 +2,88 @@
 POOL
 ################
 Grotesque Mutation -> 1B -> 2.0
-Creeping Dread -> 3B -> 1.0
-Stromkirk Mentor -> 3B -> 1.0
-Loam Dryad -> G -> 0.0
-Vessel of Nascency -> G -> 1.5
-Clip Wings -> 1G -> 0.5
-Lambholt Pacifist -> 1G -> 3.0
-Moldgraf Scavenger -> 1G -> 1.0
-Quilled Wolf -> 1G -> 3.0
-Veteran Cathar -> 1G -> 3.0
-Byway Courier -> 2G -> 3.0
-Gloomwidow -> 2G -> 2.5
-Hermit of the Natterknolls -> 2G -> 3.5
+Macabre Waltz -> 1B -> 2.5
+Macabre Waltz -> 1B -> 2.5
+Murderous Compulsion -> 1B -> 3.0
+Pale Rider of Trostad -> 1B -> 2.0
+Groundskeeper -> G -> 0.0
+Moonlight Hunt -> 1G -> 1.0
 Howlpack Resurgence -> 2G -> 1.0
-Silverfur Partisan -> 2G -> 3.0
-Stoic Builder -> 2G -> 1.0
-Ulvenwald Mysteries -> 2G -> 2.0
-Intrepid Provisioner -> 3G -> 3.0
-Second Harvest -> 2GG -> 0.0
-Watcher in the Web -> 4G -> 3.0
-Watcher in the Web -> 4G -> 3.0
+Weirding Wood -> 2G -> 0.5
+Equestrian Skill -> 3G -> 1.0
 Explosive Apparatus -> 1 -> 1.0
-Explosive Apparatus -> 1 -> 1.0
-Shard of Broken Glass -> 1 -> 1.0
-Shard of Broken Glass -> 1 -> 1.0
-Runaway Carriage -> 4 -> 0.5
+True-Faith Censer -> 2 -> 1.0
+Epiphany at the Drownyard -> XU -> 2.5
+Dual Shot -> R -> 1.5
+Insolent Neonate -> R -> 1.5
+Skin Invasion -> R -> 2.0
 Ember-Eye Wolf -> 1R -> 1.5
-Ember-Eye Wolf -> 1R -> 1.5
-Vessel of Volatility -> 1R -> 0.0
+Magmatic Chasm -> 1R -> 1.0
+Senseless Rage -> 1R -> 1.0
+Tormenting Voice -> 1R -> 3.0
+Bloodmad Vampire -> 2R -> 2.0
+Bloodmad Vampire -> 2R -> 2.0
+Convicted Killer -> 2R -> 1.5
+Fiery Temper -> 1RR -> 3.5
+Stensia Masquerade -> 2R -> 1.0
+Ulrich's Kindred -> 2R -> 3.0
+Hulking Devil -> 3R -> 1.0
+Structural Distortion -> 3R -> 0.5
+Structural Distortion -> 3R -> 0.5
+Structural Distortion -> 3R -> 0.5
+Voldaren Duelist -> 3R -> 3.0
+Gatstaf Arsonists -> 4R -> 3.0
+Devils' Playground -> 4RR -> 4.0
+Invasive Surgery -> U -> 0.5
 Furtive Homunculus -> 1U -> 2.5
-Ghostly Wings -> 1U -> 3.0
-Just the Wind -> 1U -> 3.0
-Just the Wind -> 1U -> 3.0
-Just the Wind -> 1U -> 3.0
 Nagging Thoughts -> 1U -> 1.5
+Press for Answers -> 1U -> 1.5
+Press for Answers -> 1U -> 1.5
 Seagraf Skaab -> 1U -> 1.0
-Seagraf Skaab -> 1U -> 1.0
-Vessel of Paramnesia -> 1U -> 1.5
-Deny Existence -> 2U -> 1.5
-Pieces of the Puzzle -> 2U -> 1.0
-Trail of Evidence -> 2U -> 2.0
-Drownyard Explorers -> 3U -> 3.0
+Catalog -> 2U -> 2.0
+Stitched Mangler -> 2U -> 2.0
+Silent Observer -> 3U -> 3.0
+Silent Observer -> 3U -> 3.0
+Pore Over the Pages -> 3UU -> 3.5
 Silburlind Snapper -> 5U -> 1.5
-Silburlind Snapper -> 5U -> 1.5
-Nephalia Moondrakes -> 5UU -> 2.5
-Devilthorn Fox -> 1W -> 2.0
-Expose Evil -> 1W -> 2.0
-Expose Evil -> 1W -> 2.0
-Puncturing Light -> 1W -> 3.0
-Puncturing Light -> 1W -> 3.0
+Chaplain's Blessing -> W -> 0.5
+Chaplain's Blessing -> W -> 0.5
+Stern Constable -> W -> 1.0
+Thraben Inspector -> W -> 2.5
+Topplegeist -> W -> 1.0
+Topplegeist -> W -> 1.0
+Topplegeist -> W -> 1.0
+Hanweir Militia Captain -> 1W -> 3.5
 Unruly Mob -> 1W -> 2.5
-Bound by Moonsilver -> 2W -> 4.0
-Cathar's Companion -> 2W -> 2.0
-Militant Inquisitor -> 2W -> 1.5
-Militant Inquisitor -> 2W -> 1.5
+Vessel of Ephemera -> 1W -> 2.5
+Vessel of Ephemera -> 1W -> 2.5
+Angelic Purge -> 2W -> 3.0
+Dauntless Cathar -> 2W -> 3.0
+Ethereal Guidance -> 2W -> 0.5
 Paranoid Parish-Blade -> 2W -> 2.0
-Survive the Night -> 2W -> 1.5
-Apothecary Geist -> 3W -> 2.5
-Inspiring Captain -> 3W -> 2.0
-Archangel Avacyn -> 3WW -> 5.0
-Emissary of the Sleepless -> 4W -> 2.5
 ################
 ELECCION
 ################
-Dead Weight -> B -> 2.5
-Ghoulcaller's Accomplice -> 1B -> 2.5
-Ghoulcaller's Accomplice -> 1B -> 2.5
-Murderous Compulsion -> 1B -> 2.5
-Vampire Noble -> 2B -> 2.5
-Vampire Noble -> 2B -> 2.5
-Accursed Witch -> 3B -> 2.5
-Rottenheart Ghoul -> 3B -> 2.5
-Rottenheart Ghoul -> 3B -> 2.5
-Stallion of Ashmouth -> 3B -> 2.5
-Murderer's Axe -> 4 -> 2.5
-Burn from Within -> XR -> 2.5
-Dual Shot -> R -> 2.5
-Gibbering Fiend -> 1R -> 2.5
-Tormenting Voice -> 1R -> 2.5
-Breakneck Rider -> 1RR -> 2.5
-Geistblast -> 2R -> 2.5
-Ulrich's Kindred -> 2R -> 2.5
-Hulking Devil -> 3R -> 2.5
-Malevolent Whispers -> 3R -> 2.5
-Voldaren Duelist -> 3R -> 2.5
-Reduce to Ashes -> 4R -> 2.5
-Devils' Playground -> 4RR -> 2.5
+Dead Weight -> B -> 2.0
+Dead Weight -> B -> 2.0
+Asylum Visitor -> 1B -> 2.0
+Rancid Rats -> 1B -> 2.0
+Merciless Resolve -> 2B -> 2.0
+Accursed Witch -> 3B -> 2.0
+Stallion of Ashmouth -> 3B -> 2.0
+Stromkirk Mentor -> 3B -> 2.0
+Deathcap Cultivator -> 1G -> 2.0
+Quilled Wolf -> 1G -> 2.0
+Quilled Wolf -> 1G -> 2.0
+Byway Courier -> 2G -> 2.0
+Stoic Builder -> 2G -> 2.0
+Tireless Tracker -> 2G -> 2.0
+Briarbridge Patrol -> 3G -> 2.0
+Intrepid Provisioner -> 3G -> 2.0
+Intrepid Provisioner -> 3G -> 2.0
+Solitary Hunter -> 3G -> 2.0
+Thornhide Wolves -> 4G -> 2.0
+Watcher in the Web -> 4G -> 2.0
+Watcher in the Web -> 4G -> 2.0
+Harvest Hand -> 3 -> 2.0
+Murderer's Axe -> 4 -> 2.0

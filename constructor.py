@@ -62,7 +62,7 @@ def construye_grafo(cartas):
     return grafo
 
 
-def func_valor(arista):
+def heuristica(arista):
     '''
     Funcion de evaluacion que da un valor subjetivo de una arista y un vertice
     '''
@@ -71,13 +71,15 @@ def func_valor(arista):
     ncartas_seleccionadas = len(visitados)
 
     #sumatorio de la Sinergias
-    sum_sin = 0
+    sinergia = 0
     for elem in visitados:
         for vecino in elem.edge_list():
             if vecino[0] == arista[0]:
-                sum_sin += vecino[1]
-    sum_sin/=len(visitados)
+                sinergia += vecino[1]
+    sinergia /= ncartas_seleccionadas
 
+    # el numero determina a partir de que punto empiezo a tener en cuenta la curva de mana
+    '''
     if len(visitados)>12:
         #calcula como evolucionaria la curva de mana
         evol_curva = (media*ncartas_seleccionadas+arista[0].name.cmc())/(float(ncartas_seleccionadas+1))
@@ -88,6 +90,24 @@ def func_valor(arista):
     else:
         return (arista[0].name.nota_fireball*parametros['peso_carta'] +
                 sum_sin*parametros['peso_sinergia'])
+
+    '''
+    # calculo la evolucion de la curva si elegimos la carta evaluada
+    evol_curva = (media*ncartas_seleccionadas+arista[0].name.cmc())/(float(ncartas_seleccionadas+1))
+    # peso individual
+    peso_individual = arista[0].name.nota_fireball*parametros['peso_carta']
+    peso_sinergia = sinergia*parametros['peso_sinergia']
+    penalizacion_cm = abs(evol_curva-parametros['media_mana'])*parametros['factor_mana']
+
+    '''
+    print('=============')
+    print(peso_individual)
+    print(peso_sinergia)
+    print(penalizacion_cm)
+    print('=============')
+    '''
+
+    return peso_individual + peso_sinergia - penalizacion_cm
 
 
 def colores_compatibles(colores, carta):
@@ -193,10 +213,11 @@ def algoritmo_constructor(pool, ncartas=23):
 
     #busco los demas
     while(len(visitados)<ncartas):
-        posibilidades = sorted(actual.edge_list(), key=lambda k:func_valor(k), reverse=True)
-        #para todos los vecinos ordenados por puntos...
+        posibilidades = sorted(actual.edge_list(), key=lambda k:heuristica(k), reverse=True)
+        #para todos los veciones ordenados por puntos...
         for pos in posibilidades:
             #Si no lo he visitado...
+            #pos[0] es la carta, pos[1] la sinergia
             if pos[0] not in visitados:
                 coste_vec = pos[0].name.cmc()
                 #y si ademas cumple mis exigencias sobre la curva de mana
@@ -239,7 +260,7 @@ def nodos_a_cartas(nodos):
     return cartas
 
 
-def main():
+def Main():
     carga_parametros()
     eleccion = int(sys.argv[1])
     pool = None
@@ -259,4 +280,4 @@ def main():
     print(mnt.histograma(res))
 
 if __name__ == '__main__':
-    main()
+    Main()

@@ -3,77 +3,76 @@
 <deckname></deckname>
 <comments></comments>
 <zone name="pool">
-	<card number="1" price="0" name="Emissary of the Sleepless"/>
-	<card number="1" price="0" name="Howlpack Resurgence"/>
-	<card number="1" price="0" name="Cathar's Companion"/>
-	<card number="1" price="0" name="Quilled Wolf"/>
-	<card number="1" price="0" name="Vessel of Nascency"/>
-	<card number="1" price="0" name="Clip Wings"/>
-	<card number="1" price="0" name="Deny Existence"/>
-	<card number="3" price="0" name="Just the Wind"/>
-	<card number="1" price="0" name="Moldgraf Scavenger"/>
-	<card number="2" price="0" name="Explosive Apparatus"/>
-	<card number="1" price="0" name="Stoic Builder"/>
+	<card number="1" price="0" name="Epiphany at the Drownyard"/>
+	<card number="1" price="0" name="Skin Invasion"/>
+	<card number="1" price="0" name="Ember-Eye Wolf"/>
 	<card number="1" price="0" name="Paranoid Parish-Blade"/>
-	<card number="1" price="0" name="Veteran Cathar"/>
-	<card number="1" price="0" name="Ghostly Wings"/>
-	<card number="1" price="0" name="Bound by Moonsilver"/>
-	<card number="2" price="0" name="Watcher in the Web"/>
-	<card number="1" price="0" name="Vessel of Volatility"/>
-	<card number="2" price="0" name="Shard of Broken Glass"/>
-	<card number="2" price="0" name="Silburlind Snapper"/>
-	<card number="1" price="0" name="Creeping Dread"/>
-	<card number="1" price="0" name="Stromkirk Mentor"/>
-	<card number="1" price="0" name="Ulvenwald Mysteries"/>
-	<card number="1" price="0" name="Nagging Thoughts"/>
-	<card number="1" price="0" name="Loam Dryad"/>
-	<card number="2" price="0" name="Seagraf Skaab"/>
-	<card number="1" price="0" name="Gloomwidow"/>
-	<card number="1" price="0" name="Byway Courier"/>
-	<card number="1" price="0" name="Trail of Evidence"/>
-	<card number="1" price="0" name="Apothecary Geist"/>
-	<card number="1" price="0" name="Devilthorn Fox"/>
+	<card number="1" price="0" name="Voldaren Duelist"/>
+	<card number="1" price="0" name="Invasive Surgery"/>
+	<card number="2" price="0" name="Bloodmad Vampire"/>
+	<card number="1" price="0" name="Devils' Playground"/>
+	<card number="1" price="0" name="Stern Constable"/>
+	<card number="1" price="0" name="Howlpack Resurgence"/>
+	<card number="1" price="0" name="Catalog"/>
+	<card number="1" price="0" name="Angelic Purge"/>
+	<card number="1" price="0" name="Pore Over the Pages"/>
 	<card number="1" price="0" name="Furtive Homunculus"/>
-	<card number="1" price="0" name="Vessel of Paramnesia"/>
-	<card number="1" price="0" name="Archangel Avacyn"/>
-	<card number="2" price="0" name="Puncturing Light"/>
-	<card number="1" price="0" name="Second Harvest"/>
-	<card number="1" price="0" name="Lambholt Pacifist"/>
-	<card number="1" price="0" name="Drownyard Explorers"/>
-	<card number="1" price="0" name="Pieces of the Puzzle"/>
-	<card number="2" price="0" name="Expose Evil"/>
-	<card number="1" price="0" name="Intrepid Provisioner"/>
-	<card number="1" price="0" name="Hermit of the Natterknolls"/>
-	<card number="1" price="0" name="Inspiring Captain"/>
+	<card number="2" price="0" name="Chaplain's Blessing"/>
+	<card number="1" price="0" name="Seagraf Skaab"/>
+	<card number="1" price="0" name="Explosive Apparatus"/>
+	<card number="2" price="0" name="Press for Answers"/>
+	<card number="1" price="0" name="Pale Rider of Trostad"/>
+	<card number="2" price="0" name="Vessel of Ephemera"/>
+	<card number="1" price="0" name="Senseless Rage"/>
+	<card number="3" price="0" name="Topplegeist"/>
+	<card number="1" price="0" name="Fiery Temper"/>
+	<card number="2" price="0" name="Macabre Waltz"/>
+	<card number="1" price="0" name="Moonlight Hunt"/>
+	<card number="1" price="0" name="True-Faith Censer"/>
+	<card number="1" price="0" name="Silburlind Snapper"/>
+	<card number="1" price="0" name="Murderous Compulsion"/>
+	<card number="1" price="0" name="Hulking Devil"/>
+	<card number="1" price="0" name="Equestrian Skill"/>
+	<card number="1" price="0" name="Insolent Neonate"/>
+	<card number="1" price="0" name="Ethereal Guidance"/>
+	<card number="1" price="0" name="Hanweir Militia Captain"/>
+	<card number="3" price="0" name="Structural Distortion"/>
+	<card number="1" price="0" name="Groundskeeper"/>
+	<card number="1" price="0" name="Tormenting Voice"/>
+	<card number="1" price="0" name="Gatstaf Arsonists"/>
 	<card number="1" price="0" name="Grotesque Mutation"/>
-	<card number="1" price="0" name="Nephalia Moondrakes"/>
-	<card number="2" price="0" name="Ember-Eye Wolf"/>
-	<card number="1" price="0" name="Survive the Night"/>
-	<card number="1" price="0" name="Silverfur Partisan"/>
-	<card number="1" price="0" name="Runaway Carriage"/>
+	<card number="1" price="0" name="Stitched Mangler"/>
+	<card number="1" price="0" name="Weirding Wood"/>
+	<card number="1" price="0" name="Dauntless Cathar"/>
+	<card number="1" price="0" name="Ulrich's Kindred"/>
+	<card number="1" price="0" name="Convicted Killer"/>
+	<card number="2" price="0" name="Silent Observer"/>
+	<card number="1" price="0" name="Dual Shot"/>
+	<card number="1" price="0" name="Stensia Masquerade"/>
+	<card number="1" price="0" name="Magmatic Chasm"/>
+	<card number="1" price="0" name="Thraben Inspector"/>
 	<card number="1" price="0" name="Unruly Mob"/>
-	<card number="2" price="0" name="Militant Inquisitor"/>
+	<card number="1" price="0" name="Nagging Thoughts"/>
 </zone>
 <zone name="eleccion">
-	<card number="1" price="0" name="Malevolent Whispers"/>
-	<card number="1" price="0" name="Burn from Within"/>
-	<card number="1" price="0" name="Murderer's Axe"/>
-	<card number="1" price="0" name="Reduce to Ashes"/>
-	<card number="1" price="0" name="Hulking Devil"/>
-	<card number="1" price="0" name="Murderous Compulsion"/>
-	<card number="1" price="0" name="Accursed Witch"/>
-	<card number="1" price="0" name="Tormenting Voice"/>
-	<card number="2" price="0" name="Ghoulcaller's Accomplice"/>
-	<card number="1" price="0" name="Ulrich's Kindred"/>
-	<card number="1" price="0" name="Devils' Playground"/>
-	<card number="2" price="0" name="Vampire Noble"/>
-	<card number="1" price="0" name="Dual Shot"/>
-	<card number="1" price="0" name="Geistblast"/>
-	<card number="2" price="0" name="Rottenheart Ghoul"/>
+	<card number="1" price="0" name="Merciless Resolve"/>
+	<card number="1" price="0" name="Briarbridge Patrol"/>
+	<card number="2" price="0" name="Quilled Wolf"/>
+	<card number="1" price="0" name="Harvest Hand"/>
+	<card number="1" price="0" name="Stromkirk Mentor"/>
+	<card number="1" price="0" name="Deathcap Cultivator"/>
+	<card number="1" price="0" name="Byway Courier"/>
+	<card number="1" price="0" name="Asylum Visitor"/>
+	<card number="1" price="0" name="Stoic Builder"/>
+	<card number="1" price="0" name="Tireless Tracker"/>
+	<card number="2" price="0" name="Intrepid Provisioner"/>
+	<card number="1" price="0" name="Solitary Hunter"/>
+	<card number="2" price="0" name="Watcher in the Web"/>
 	<card number="1" price="0" name="Stallion of Ashmouth"/>
-	<card number="1" price="0" name="Breakneck Rider"/>
-	<card number="1" price="0" name="Dead Weight"/>
-	<card number="1" price="0" name="Voldaren Duelist"/>
-	<card number="1" price="0" name="Gibbering Fiend"/>
+	<card number="1" price="0" name="Murderer's Axe"/>
+	<card number="1" price="0" name="Thornhide Wolves"/>
+	<card number="2" price="0" name="Dead Weight"/>
+	<card number="1" price="0" name="Rancid Rats"/>
+	<card number="1" price="0" name="Accursed Witch"/>
 </zone>
 </cockatrice_deck>
