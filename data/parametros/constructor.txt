@@ -1,14 +1,27 @@
 #fichero de parametros del constructor
 #las lineas que empiecen por # son comentarios
 
+#numero de cartas no tierras en el deck
+ncartas : 23
+
 #poderacion del valor de los nodos
 peso_carta : 0.7
 
 #ponderacion del valor de las aristas
 peso_sinergia : 0.3
 
-#queremos controlar la curva de mana
-contrapeso : 0
+###########################
+#AJUSTE DE LA CURVA DE MANA
+##########################
+media_mana : 3
+factor_mana : 100
+
+#######################
+#RESTRICCIONES BLANDAS
+#######################
+#maximo numero de cartas por tipo
+max_no_criaturas : 9
+max_criaturas : 30
 
 #segmentos de la curva de mana
 segmana : 6
@@ -20,15 +33,15 @@ c3 : 8
 c4 : 8
 c5 : 5
 cmax : 3
-#maximo numero de cartas por tipo
-max_no_criaturas : 9
-max_criaturas : 17
 
-#numero de cartas no tierras en el deck
-ncartas : 23
-
+######################
+#RESTRICCIONES DURAS
+######################
 #numero de ciraturas minimas en combinacion colores
 criaturas_min : 15
 
+#####################
+#OPCIONES CALCULO DE COLORES
+#####################
 #numero de cartas maximas para el promedio
 max_num_cartas : 32

@@ -1,90 +1,90 @@
 ################
 POOL
 ################
-Sanitarium Skeleton -> B
-Sanitarium Skeleton -> B
-Alms of the Vein -> 2B
-Confront the Unknown -> G
-Traverse the Ulvenwald -> G
-Aim High -> 1G
-Aim High -> 1G
-Clip Wings -> 1G
-Fork in the Road -> 1G
-Hinterland Logger -> 1G
-Quilled Wolf -> 1G
-Byway Courier -> 2G
-Root Out -> 2G
-Silverfur Partisan -> 2G
-Stoic Builder -> 2G
-Ulvenwald Mysteries -> 2G
-Weirding Wood -> 2G
-Briarbridge Patrol -> 3G
-Briarbridge Patrol -> 3G
-Equestrian Skill -> 3G
-Might Beyond Reason -> 3G
-Explosive Apparatus -> 1
-Explosive Apparatus -> 1
-True-Faith Censer -> 2
-Magnifying Glass -> 3
-Prized Amalgam -> 1UB
-Falkenrath Gorger -> R
-Falkenrath Gorger -> R
-Rush of Adrenaline -> R
-Ravenous Bloodseeker -> 1R
-Tormenting Voice -> 1R
-Vessel of Volatility -> 1R
-Vessel of Volatility -> 1R
-Vessel of Volatility -> 1R
-Bloodmad Vampire -> 2R
-Bloodmad Vampire -> 2R
-Bloodmad Vampire -> 2R
-Dance with Devils -> 3R
-Inner Struggle -> 3R
-Malevolent Whispers -> 3R
-Pyre Hound -> 3R
-Structural Distortion -> 3R
-Dissension in the Ranks -> 3RR
-Reduce to Ashes -> 4R
-Furtive Homunculus -> 1U
-Jace's Scrutiny -> 1U
-Jace's Scrutiny -> 1U
-Jace's Scrutiny -> 1U
-Vessel of Paramnesia -> 1U
-Vessel of Paramnesia -> 1U
-Catalog -> 2U
-Pieces of the Puzzle -> 2U
-Drownyard Explorers -> 3U
-Engulf the Shore -> 3U
-Stitchwing Skaab -> 3U
-Stormrider Spirit -> 4U
-Topplegeist -> W
-Devilthorn Fox -> 1W
-Devilthorn Fox -> 1W
-Vessel of Ephemera -> 1W
-Ethereal Guidance -> 2W
+Grotesque Mutation -> 1B -> 2.0
+Creeping Dread -> 3B -> 1.0
+Stromkirk Mentor -> 3B -> 1.0
+Loam Dryad -> G -> 0.0
+Vessel of Nascency -> G -> 1.5
+Clip Wings -> 1G -> 0.5
+Lambholt Pacifist -> 1G -> 3.0
+Moldgraf Scavenger -> 1G -> 1.0
+Quilled Wolf -> 1G -> 3.0
+Veteran Cathar -> 1G -> 3.0
+Byway Courier -> 2G -> 3.0
+Gloomwidow -> 2G -> 2.5
+Hermit of the Natterknolls -> 2G -> 3.5
+Howlpack Resurgence -> 2G -> 1.0
+Silverfur Partisan -> 2G -> 3.0
+Stoic Builder -> 2G -> 1.0
+Ulvenwald Mysteries -> 2G -> 2.0
+Intrepid Provisioner -> 3G -> 3.0
+Second Harvest -> 2GG -> 0.0
+Watcher in the Web -> 4G -> 3.0
+Watcher in the Web -> 4G -> 3.0
+Explosive Apparatus -> 1 -> 1.0
+Explosive Apparatus -> 1 -> 1.0
+Shard of Broken Glass -> 1 -> 1.0
+Shard of Broken Glass -> 1 -> 1.0
+Runaway Carriage -> 4 -> 0.5
+Ember-Eye Wolf -> 1R -> 1.5
+Ember-Eye Wolf -> 1R -> 1.5
+Vessel of Volatility -> 1R -> 0.0
+Furtive Homunculus -> 1U -> 2.5
+Ghostly Wings -> 1U -> 3.0
+Just the Wind -> 1U -> 3.0
+Just the Wind -> 1U -> 3.0
+Just the Wind -> 1U -> 3.0
+Nagging Thoughts -> 1U -> 1.5
+Seagraf Skaab -> 1U -> 1.0
+Seagraf Skaab -> 1U -> 1.0
+Vessel of Paramnesia -> 1U -> 1.5
+Deny Existence -> 2U -> 1.5
+Pieces of the Puzzle -> 2U -> 1.0
+Trail of Evidence -> 2U -> 2.0
+Drownyard Explorers -> 3U -> 3.0
+Silburlind Snapper -> 5U -> 1.5
+Silburlind Snapper -> 5U -> 1.5
+Nephalia Moondrakes -> 5UU -> 2.5
+Devilthorn Fox -> 1W -> 2.0
+Expose Evil -> 1W -> 2.0
+Expose Evil -> 1W -> 2.0
+Puncturing Light -> 1W -> 3.0
+Puncturing Light -> 1W -> 3.0
+Unruly Mob -> 1W -> 2.5
+Bound by Moonsilver -> 2W -> 4.0
+Cathar's Companion -> 2W -> 2.0
+Militant Inquisitor -> 2W -> 1.5
+Militant Inquisitor -> 2W -> 1.5
+Paranoid Parish-Blade -> 2W -> 2.0
+Survive the Night -> 2W -> 1.5
+Apothecary Geist -> 3W -> 2.5
+Inspiring Captain -> 3W -> 2.0
+Archangel Avacyn -> 3WW -> 5.0
+Emissary of the Sleepless -> 4W -> 2.5
 ################
 ELECCION
 ################
-Sinister Concoction -> B
-Rancid Rats -> 1B
-Rancid Rats -> 1B
-Farbog Revenant -> 2B
-Merciless Resolve -> 2B
-Vampire Noble -> 2B
-Vampire Noble -> 2B
-Rottenheart Ghoul -> 3B
-Throttle -> 4B
-Throttle -> 4B
-Thraben Gargoyle -> 1
-Wild-Field Scarecrow -> 3
-Epitaph Golem -> 5
-Thraben Inspector -> W
-Thraben Inspector -> W
-Unruly Mob -> 1W
-Unruly Mob -> 1W
-Unruly Mob -> 1W
-Bound by Moonsilver -> 2W
-Dauntless Cathar -> 2W
-Dauntless Cathar -> 2W
-Hope Against Hope -> 2W
-Apothecary Geist -> 3W
+Dead Weight -> B -> 2.5
+Ghoulcaller's Accomplice -> 1B -> 2.5
+Ghoulcaller's Accomplice -> 1B -> 2.5
+Murderous Compulsion -> 1B -> 2.5
+Vampire Noble -> 2B -> 2.5
+Vampire Noble -> 2B -> 2.5
+Accursed Witch -> 3B -> 2.5
+Rottenheart Ghoul -> 3B -> 2.5
+Rottenheart Ghoul -> 3B -> 2.5
+Stallion of Ashmouth -> 3B -> 2.5
+Murderer's Axe -> 4 -> 2.5
+Burn from Within -> XR -> 2.5
+Dual Shot -> R -> 2.5
+Gibbering Fiend -> 1R -> 2.5
+Tormenting Voice -> 1R -> 2.5
+Breakneck Rider -> 1RR -> 2.5
+Geistblast -> 2R -> 2.5
+Ulrich's Kindred -> 2R -> 2.5
+Hulking Devil -> 3R -> 2.5
+Malevolent Whispers -> 3R -> 2.5
+Voldaren Duelist -> 3R -> 2.5
+Reduce to Ashes -> 4R -> 2.5
+Devils' Playground -> 4RR -> 2.5

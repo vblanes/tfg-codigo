@@ -5,6 +5,7 @@ import copy
 import sys
 import gestor_pool as gp
 import exportador as xprt
+import monitorizacion as mnt
 
 '''
 Clase principal para construir la baraja, necesita que la
@@ -14,12 +15,17 @@ que se pueden modificar sin tocar el codigo
 
 #global
 global parametros
+global media
+global visitados
+
 #carga de parametros
 def carga_parametros():
     '''
     Carga la lista del parametros en el fichero
     'data/parametros/constructor.txt'
     '''
+    global media
+    media = 0
     global parametros
     parametros = {}
     with open('data/parametros/constructor.txt') as f_in:
@@ -61,9 +67,27 @@ def func_valor(arista):
     Funcion de evaluacion que da un valor subjetivo de una arista y un vertice
     '''
     global parametros
-    return (arista[0].name.nota_fireball*parametros['peso_carta'] +
-            arista[1]*parametros['peso_sinergia'] -
-            arista[0].name.cmc()*parametros['contrapeso'])
+    global visitados
+    ncartas_seleccionadas = len(visitados)
+
+    #sumatorio de la Sinergias
+    sum_sin = 0
+    for elem in visitados:
+        for vecino in elem.edge_list():
+            if vecino[0] == arista[0]:
+                sum_sin += vecino[1]
+    sum_sin/=len(visitados)
+
+    if len(visitados)>12:
+        #calcula como evolucionaria la curva de mana
+        evol_curva = (media*ncartas_seleccionadas+arista[0].name.cmc())/(float(ncartas_seleccionadas+1))
+
+        return (arista[0].name.nota_fireball*parametros['peso_carta'] +
+                sum_sin*parametros['peso_sinergia'] -
+                abs(evol_curva-parametros['media_mana'])*parametros['factor_mana'])
+    else:
+        return (arista[0].name.nota_fireball*parametros['peso_carta'] +
+                sum_sin*parametros['peso_sinergia'])
 
 
 def colores_compatibles(colores, carta):
@@ -92,12 +116,12 @@ def promedio_color(cart_col):
     el numero de cartas queda truncado a las 16 primeras y debe tener
     minimo. Estas comprovaciones las hace la propia funcion
     '''
-    max_num_cartas = parametros['max_num_cartas']
+    max_num_cartas = int(parametros['max_num_cartas'])
     #estas reglas van a cambiar
     if len (cart_col) < 10:
         return 0
-    elif len(cart_col)> 16:
-        cart_col = sorted(cart_col, key =lambda k:k.nota_fireball)[:16]
+    elif len(cart_col) > max_num_cartas:
+        cart_col = sorted(cart_col, key =lambda k:k.nota_fireball)[:max_num_cartas]
     #la combinacion de colores debe tener un numero minimo de criaturas
     if len([car for car in cart_col if 'creature' in car.tipo.lower()])<parametros['criaturas_min']:
         return 0
@@ -127,12 +151,15 @@ def eleccion_colores(pool):
 
     #fabrico una lista de cartas del pool compatibles con el primer par de colores
     cc = [c for c in pool if colores_compatibles(prodcolores[0], c)]
+    maxim = promedio_color(cc)
+
     for i in range(1, len(prodcolores)):
         #cartas de esa combinacion de colores
         aux = [c for c in pool if colores_compatibles(prodcolores[i], c)]
         #si encuentro una combinacion mejor a mi actual, la adopto
-        if promedio_color(aux) > promedio_color(cc):
+        if promedio_color(aux) > maxim:
             cc = aux
+            maxim = promedio_color(aux)
     return cc
 
 
@@ -141,7 +168,12 @@ def algoritmo_constructor(pool, ncartas=23):
     Devuelve una lista de cartas escogidas por el algoritmo a
     partir de un pool
     '''
+    #variables globales
+    global parametros
+    global visitados
+
     #variables que controlan las restricciones
+    global media
     costes_activos = [0]*6
     criaturas = 0
     no_criaturas = 0
@@ -162,7 +194,7 @@ def algoritmo_constructor(pool, ncartas=23):
     #busco los demas
     while(len(visitados)<ncartas):
         posibilidades = sorted(actual.edge_list(), key=lambda k:func_valor(k), reverse=True)
-        #para todos los veciones ordenados por puntos...
+        #para todos los vecinos ordenados por puntos...
         for pos in posibilidades:
             #Si no lo he visitado...
             if pos[0] not in visitados:
@@ -181,11 +213,11 @@ def algoritmo_constructor(pool, ncartas=23):
                         break
                     #restriccion debil: numero maximo de NO criaturas
                     elif 'creature' not in pos[0].name.tipo.lower() and  no_criaturas < parametros['max_no_criaturas']:
-                            actual = pos[0]
-                            visitados.append(actual)
-                            costes_activos[ind] += 1
-                            no_criaturas += 1
-                            break
+                        actual = pos[0]
+                        visitados.append(actual)
+                        costes_activos[ind] += 1
+                        no_criaturas += 1
+                        break
 
 
                 # si he llegado al ultimo y no anyado algo no va bien
@@ -197,22 +229,8 @@ def algoritmo_constructor(pool, ncartas=23):
                     criaturas = 0
                     no_criaturas = 0
 
-    #el orden en que he escogido las cartas
-    for n in visitados:
-        print(n.name.nombre_original, '->', n.name.nota_fireball)
     return visitados
 
-
-
-def imprime_resultados(pool, elegidos):
-    f = open('resultado_algoritmo.txt', 'w')
-    f.write('################\nPOOL\n################\n')
-    for p in pool:
-        f.write(str(p)+'\n')
-    f.write('################\nELECCION\n################\n')
-    for e in elegidos:
-        f.write(str(e)+'\n')
-    f.close()
 
 def nodos_a_cartas(nodos):
     cartas = list()
@@ -237,8 +255,8 @@ def main():
     pool = [p for p in pool if p not in res]
     pool = sorted(pool, key=lambda k:(k.color,k.cmc(), k.nombre))
     xprt.exportDoc(pool, res)
-    imprime_resultados(pool, res)
-
+    mnt.imprime_resultados(pool, res)
+    print(mnt.histograma(res))
 
 if __name__ == '__main__':
     main()
