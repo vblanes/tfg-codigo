@@ -31,8 +31,7 @@ def guarda_panda_csv(nombres, notas, color):
         nombres.append("null")
     d = {'Nombres': nombres, 'Notas':notas}
     data = pandas.DataFrame(d)
-    #AQUI AQUI
-    data.to_csv("/tmp/"+color+".csv")#, encoding='utf-8')
+    data.to_csv("data/output/fireball/"+color+".csv")#, encoding='utf-8')
 
 def carga_panda_csv():
     '''
@@ -55,7 +54,6 @@ def limpia_nombre(nombre_orig):
     if '//' in nombre_orig:
         nombre_orig = nombre_orig.split('//')[0].strip()
     nom = nombre_orig.replace("'", "")
-    nom  = nom.replace("’", '')
     return re.sub('\s+', '', nom).lower().strip()
 
 
@@ -201,11 +199,7 @@ def validacion_cruzada_scrapping(dicc_fireball, dicc_tcg_player, dicc_magic_info
             costemedio = elementostcg[2].replace("$", '')
             rareza = elementostcg[1].replace("[", "")
             rareza = rareza.replace("]", "")
-            tipo = elementosinfo[0].replace("—", "-")
             texto = elementosinfo[1].replace("'", "")
-            texto = texto.replace("—", "-")
-            texto = texto.replace("−", "-")
-            texto = texto.replace("•", "")
 
             if key not in dicc_fireball:
                 nf = 0
@@ -220,6 +214,7 @@ def validacion_cruzada_scrapping(dicc_fireball, dicc_tcg_player, dicc_magic_info
             array_cartas.append(cartaux)
         except:
                 cartas_error.write(key+"\n")
+    print(len(array_cartas))
     cartas_error.close()
     return array_cartas
 
@@ -294,7 +289,7 @@ if __name__ == '__main__':
         print("Archivos descargados correctamente!")
     elif sys.argv[1] == 'calcular' and len(sys.argv) == 2:
         res = calcular_info()
-        print("Se ha podido conseguir información sobre", len(res), 'cartas')
+        print("Se ha podido consegir informacion sobre", len(res), 'cartas')
         pickle.dump(res, open("data/output/cartas.p", "wb"))
         print("Archivo disponible en data/output/cartas.p")
     else:

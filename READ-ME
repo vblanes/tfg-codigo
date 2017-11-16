@@ -8,11 +8,11 @@ Nota: Crea un fichero con las cartas que no han podido ser insertadas, porque so
 
 2) INSERTAR EN LA BD LAS CARTAS Y LAS ARISTAS
 
-python3 initdb.py 
+python3 initbd.py 
 
 3) CREAR EL DECK
 
-python3 constructor <numpool>
+python3 constructor <pathpool>
 
 Nota: Si queremos usar un pool de los predefinidos en data/pools ponemos su numero, si queremos crear uno nuevo el argumento será -1
 

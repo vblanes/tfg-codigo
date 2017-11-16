@@ -77,21 +77,6 @@ def heuristica(arista):
             if vecino[0] == arista[0]:
                 sinergia += vecino[1]
     sinergia /= ncartas_seleccionadas
-
-    # el numero determina a partir de que punto empiezo a tener en cuenta la curva de mana
-    '''
-    if len(visitados)>12:
-        #calcula como evolucionaria la curva de mana
-        evol_curva = (media*ncartas_seleccionadas+arista[0].name.cmc())/(float(ncartas_seleccionadas+1))
-
-        return (arista[0].name.nota_fireball*parametros['peso_carta'] +
-                sum_sin*parametros['peso_sinergia'] -
-                abs(evol_curva-parametros['media_mana'])*parametros['factor_mana'])
-    else:
-        return (arista[0].name.nota_fireball*parametros['peso_carta'] +
-                sum_sin*parametros['peso_sinergia'])
-
-    '''
     # calculo la evolucion de la curva si elegimos la carta evaluada
     evol_curva = (media*ncartas_seleccionadas+arista[0].name.cmc())/(float(ncartas_seleccionadas+1))
     # peso individual

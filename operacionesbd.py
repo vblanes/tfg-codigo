@@ -3,7 +3,7 @@ import sqlite3 as sql
 from carta import Carta
 import sys
 import pickle
-
+import operacionesbd as obd
 
 def crea_conexion():
     # crea la conexion a la bd
@@ -55,7 +55,7 @@ def ejecuta_multiples_queries(queries):
 def crea_tablas_bd():
     # crea la conexion
     bd = crea_conexion()
-    # lee el script de creación de la bd
+    # lee el script de creacion de la bd
     archivo = open('./magicbd.sql')
     script = archivo.read()
     archivo.close()
@@ -74,7 +74,7 @@ def insertar_carta(carta):
 
 def introducir_coleccion_en_bd():
     '''
-    Este método toma el path a el array con las cartas y las inserta en la bd
+    Este metodo toma el path a el array con las cartas y las inserta en la bd
     '''
     cartas = pickle.load(open("data/output/cartas.p", "rb"))
     for elem in cartas:
@@ -86,7 +86,7 @@ def introducir_coleccion_en_bd():
 
 def listar_cartas(coleccion):
     '''
-    Este método devuelve un array con todas las cartas de la coleccion
+    Este metodo devuelve un array con todas las cartas de la coleccion
     '''
     cartas = []
     query = "select * from Carta where coleccion = '"+coleccion+"'"

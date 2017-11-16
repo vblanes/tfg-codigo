@@ -70,7 +70,7 @@ def crear_relaciones(cartas):
 
 def extraer_palabras_clave(texto):
     palabras_limp = set()
-    #quizás necesitemos tratamiento previo
+    #quizas necesitemos tratamiento previo
     #descompon en palabras
     palabras = texto.split()
     #stopwords del ingles
@@ -79,7 +79,7 @@ def extraer_palabras_clave(texto):
     for pal in palabras:
         if pal not in swords:
             palabras_limp.add(pal)
-    #ahora tengo un palabras_limp (set) todas las palabras que no sean sw         
+    #ahora tengo un palabras_limp (set) todas las palabras que no sean sw
 
 
 if __name__ == '__main__':

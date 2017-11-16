@@ -1,89 +1,89 @@
 ################
 POOL
 ################
-Grotesque Mutation -> 1B -> 2.0
-Macabre Waltz -> 1B -> 2.5
-Macabre Waltz -> 1B -> 2.5
-Murderous Compulsion -> 1B -> 3.0
-Pale Rider of Trostad -> 1B -> 2.0
-Groundskeeper -> G -> 0.0
-Moonlight Hunt -> 1G -> 1.0
-Howlpack Resurgence -> 2G -> 1.0
-Weirding Wood -> 2G -> 0.5
-Equestrian Skill -> 3G -> 1.0
-Explosive Apparatus -> 1 -> 1.0
-True-Faith Censer -> 2 -> 1.0
-Epiphany at the Drownyard -> XU -> 2.5
-Dual Shot -> R -> 1.5
-Insolent Neonate -> R -> 1.5
-Skin Invasion -> R -> 2.0
-Ember-Eye Wolf -> 1R -> 1.5
-Magmatic Chasm -> 1R -> 1.0
-Senseless Rage -> 1R -> 1.0
-Tormenting Voice -> 1R -> 3.0
-Bloodmad Vampire -> 2R -> 2.0
-Bloodmad Vampire -> 2R -> 2.0
-Convicted Killer -> 2R -> 1.5
-Fiery Temper -> 1RR -> 3.5
-Stensia Masquerade -> 2R -> 1.0
-Ulrich's Kindred -> 2R -> 3.0
-Hulking Devil -> 3R -> 1.0
-Structural Distortion -> 3R -> 0.5
-Structural Distortion -> 3R -> 0.5
-Structural Distortion -> 3R -> 0.5
-Voldaren Duelist -> 3R -> 3.0
-Gatstaf Arsonists -> 4R -> 3.0
-Devils' Playground -> 4RR -> 4.0
-Invasive Surgery -> U -> 0.5
-Furtive Homunculus -> 1U -> 2.5
-Nagging Thoughts -> 1U -> 1.5
-Press for Answers -> 1U -> 1.5
-Press for Answers -> 1U -> 1.5
-Seagraf Skaab -> 1U -> 1.0
-Catalog -> 2U -> 2.0
-Stitched Mangler -> 2U -> 2.0
-Silent Observer -> 3U -> 3.0
-Silent Observer -> 3U -> 3.0
-Pore Over the Pages -> 3UU -> 3.5
-Silburlind Snapper -> 5U -> 1.5
-Chaplain's Blessing -> W -> 0.5
-Chaplain's Blessing -> W -> 0.5
-Stern Constable -> W -> 1.0
-Thraben Inspector -> W -> 2.5
-Topplegeist -> W -> 1.0
-Topplegeist -> W -> 1.0
-Topplegeist -> W -> 1.0
-Hanweir Militia Captain -> 1W -> 3.5
-Unruly Mob -> 1W -> 2.5
-Vessel of Ephemera -> 1W -> 2.5
-Vessel of Ephemera -> 1W -> 2.5
-Angelic Purge -> 2W -> 3.0
-Dauntless Cathar -> 2W -> 3.0
-Ethereal Guidance -> 2W -> 0.5
-Paranoid Parish-Blade -> 2W -> 2.0
+grotesquemutation -> 2.0
+macabrewaltz -> 2.5
+macabrewaltz -> 2.5
+murderouscompulsion -> 3.0
+palerideroftrostad -> 2.0
+groundskeeper -> 0.0
+moonlighthunt -> 1.0
+howlpackresurgence -> 1.0
+weirdingwood -> 0.5
+equestrianskill -> 1.0
+explosiveapparatus -> 1.0
+true-faithcenser -> 1.0
+epiphanyatthedrownyard -> 2.5
+dualshot -> 1.5
+insolentneonate -> 1.5
+skininvasion -> 2.0
+ember-eyewolf -> 1.5
+magmaticchasm -> 1.0
+senselessrage -> 1.0
+tormentingvoice -> 3.0
+bloodmadvampire -> 2.0
+bloodmadvampire -> 2.0
+convictedkiller -> 1.5
+fierytemper -> 3.5
+stensiamasquerade -> 1.0
+ulrichskindred -> 3.0
+hulkingdevil -> 1.0
+structuraldistortion -> 0.5
+structuraldistortion -> 0.5
+structuraldistortion -> 0.5
+voldarenduelist -> 3.0
+gatstafarsonists -> 3.0
+devilsplayground -> 4.0
+invasivesurgery -> 0.5
+furtivehomunculus -> 2.5
+naggingthoughts -> 1.5
+pressforanswers -> 1.5
+pressforanswers -> 1.5
+seagrafskaab -> 1.0
+catalog -> 2.0
+stitchedmangler -> 2.0
+silentobserver -> 3.0
+silentobserver -> 3.0
+poreoverthepages -> 3.5
+silburlindsnapper -> 1.5
+chaplainsblessing -> 0.5
+chaplainsblessing -> 0.5
+sternconstable -> 1.0
+thrabeninspector -> 2.5
+topplegeist -> 1.0
+topplegeist -> 1.0
+topplegeist -> 1.0
+hanweirmilitiacaptain -> 3.5
+unrulymob -> 2.5
+vesselofephemera -> 2.5
+vesselofephemera -> 2.5
+angelicpurge -> 3.0
+dauntlesscathar -> 3.0
+etherealguidance -> 0.5
+paranoidparish-blade -> 2.0
 ################
 ELECCION
 ################
-Dead Weight -> B -> 2.0
-Dead Weight -> B -> 2.0
-Asylum Visitor -> 1B -> 2.0
-Rancid Rats -> 1B -> 2.0
-Merciless Resolve -> 2B -> 2.0
-Accursed Witch -> 3B -> 2.0
-Stallion of Ashmouth -> 3B -> 2.0
-Stromkirk Mentor -> 3B -> 2.0
-Deathcap Cultivator -> 1G -> 2.0
-Quilled Wolf -> 1G -> 2.0
-Quilled Wolf -> 1G -> 2.0
-Byway Courier -> 2G -> 2.0
-Stoic Builder -> 2G -> 2.0
-Tireless Tracker -> 2G -> 2.0
-Briarbridge Patrol -> 3G -> 2.0
-Intrepid Provisioner -> 3G -> 2.0
-Intrepid Provisioner -> 3G -> 2.0
-Solitary Hunter -> 3G -> 2.0
-Thornhide Wolves -> 4G -> 2.0
-Watcher in the Web -> 4G -> 2.0
-Watcher in the Web -> 4G -> 2.0
-Harvest Hand -> 3 -> 2.0
-Murderer's Axe -> 4 -> 2.0
+deadweight -> 2.0
+deadweight -> 2.0
+asylumvisitor -> 2.0
+rancidrats -> 2.0
+mercilessresolve -> 2.0
+accursedwitch -> 2.0
+stallionofashmouth -> 2.0
+stromkirkmentor -> 2.0
+deathcapcultivator -> 2.0
+quilledwolf -> 2.0
+quilledwolf -> 2.0
+bywaycourier -> 2.0
+stoicbuilder -> 2.0
+tirelesstracker -> 2.0
+briarbridgepatrol -> 2.0
+intrepidprovisioner -> 2.0
+intrepidprovisioner -> 2.0
+solitaryhunter -> 2.0
+thornhidewolves -> 2.0
+watcherintheweb -> 2.0
+watcherintheweb -> 2.0
+harvesthand -> 2.0
+murderersaxe -> 2.0

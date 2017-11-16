@@ -18,7 +18,7 @@ class Carta:
 
 
     def __str__(self):
-        return str(self.nombre_original+" -> "+self.coste_mana)
+        return self.nombre
 
     def cmc(self):
         '''

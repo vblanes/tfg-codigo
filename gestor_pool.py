@@ -2,7 +2,7 @@ import pickle
 from os import listdir
 from generador_sobres import Generador
 import sys
-
+import operacionesbd as obd
 '''
 Este fichero proporciona los recursos para gestionar
 pools de cartas predefinidos con el objetivo de hcer pruebas
@@ -42,8 +42,28 @@ def print_pool(pool):
     for p in pool:
         print(p)
 
+def cargar_lista(path):
+    lineas = open(path, 'r').read().split('\n')
+    #print(lineas)
+    cartas = []
+    for lin in lineas:
+        if not lin.strip():
+            continue
+        query = "select * from Carta where nombre='"+lin.strip()+"'"
+        c = obd.ejecuta_query(query)
+        if c:
+            cartas.append(obd.linea_cursor_a_carta(c[0]))
+    return cartas
+
+def cargar(abspath):
+    return pickle.load(open(abspath, 'rb'))
+
 if __name__ == '__main__':
+    print_pool(cargar_lista('test.txt'))
+    #print_pool(cargar_pool(sys.argv[1]))
+    '''
     if len(sys.argv)==2:
-        print_pool(sys.argv[1])
+        print_pool(cargar_pool(sys.argv[1]))
     else:
-        crear_pool()   
+        crear_pool()
+    '''
